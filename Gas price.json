@@ -1,0 +1,47 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "UK wholesale day ahead gas prices",
+  "data": {
+    "url": "https://raw.githubusercontent.com/BenPimley/ECO/main/gas-prices-day-ahead-con.csv"
+  },
+  "title": {
+    "text": "UK wholesale gas prices",
+    "subtitle": "Monthly average price (pence per therm) Source: Ofgem",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "height": 350,
+  "width": "container",
+  "mark": {"type": "line", "color": "#f4c245"},
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false}
+    },
+    "y": {
+      "field": "Price",
+      "type": "quantitative",
+      "title": null,
+      "axis": {"grid": false, "labelFontSize": 12}
+    },
+    "tooltip": [
+      {
+        "field": "Date",
+        "type": "temporal",
+        "title": "Month",
+        "timeUnit": "yearmonth"
+      },
+      {
+        "field": "Price",
+        "type": "quantitative",
+        "title": "Average monthly price (pence per therm)"
+      }
+    ]
+  },
+  "autosize": {"type": "pad", "contains": "padding", "resize": true},
+  "config": {}
+}
