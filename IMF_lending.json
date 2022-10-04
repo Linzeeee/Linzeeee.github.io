@@ -26,5 +26,6 @@
       "title": "",
       "axis": {"grid": false}
     }
-  }
+  },
+  "config": {}
 }
