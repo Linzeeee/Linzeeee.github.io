@@ -23,20 +23,24 @@ h1, h3, p{
     
 .myWeek1{
     margin: auto;
-    max-width: 600px;
+    max-width: 700px;
     background-color: rgba(245, 144, 35, 0.922);
 }
 
+.myWeek2{
+    margin: auto;
+    max-width: 700px;
+    background-color: rgba(245, 144, 35, 0.922);
+}
 
 /* Set the apperance of the class, chart */
 .chart{
     background-color: rgb(245, 244, 243);
-    width:330px;
+    width:650px;
     border-width: 10px;
     border-style: solid;
     border-radius: 5px;
     border-color: rgb(196, 192, 187);
 
-    
 }
     
