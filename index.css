@@ -17,7 +17,7 @@ body{
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1{
     color:rgb(17, 17, 17);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Georgia', serif;
     font-size:60px;
     text-align: center;
     border-style: double;
@@ -27,7 +27,7 @@ h1{
 
 h2{
     color:rgb(17, 17, 17);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size:35px ;
     text-align: center;
     border-style: solid;
@@ -37,18 +37,12 @@ h2{
 
 p{
     color:rgb(17, 17, 17);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Times New Roman', serif;
     font-size:25px ;
     text-align: center;
 }
     
-.myWeek1{
-    margin: auto;
-    width: 50%;
-    background-color: rgba(243, 232, 232);
-}
-
-.myWeek2{
+.myWeek1,.myWeek2{
     margin: auto;
     width: 50%;
     background-color: rgba(243, 232, 232);
