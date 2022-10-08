@@ -1,0 +1,33 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Chart 2: IMF Lending Outstanding/ Global GDP per capita",
+      "subtitle": "Credit Outstanding to all members, SDRs(millions), divided by Global GDP per capita, Source: IMF",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/Linzeeee/Linzeeee.github.io/main/data_IMF_creditOutstanding.csv"
+    },
+    "transform": [{"calculate": "(datum.Totals/1000000)/datum.World","as": "Billionss"}],
+  
+    "height": 300,
+    "width":"container",
+    "mark": {"type": "bar", "color": "rgb(0,47,167)"},
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "temporal",
+        "axis": {"title": null, "grid": false, "ticks": true, "labelAngle": 60}
+      },
+      "y": {
+        "field": "Billionss",
+        "type": "quantitative",
+        "title": "",
+        "axis": {"grid": false}
+      }
+    },
+    "config": {}
+  }
