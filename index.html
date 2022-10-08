@@ -26,31 +26,34 @@
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
     <div class="myWeek1">
         <h1>Data Science Portfolio</h1>
-        <h2>Week1</h2>
-        <p>The first chart tracks UK inflation level.</p>
+        <h2>Week1 -Embedding 2 charts</h2>
+        <p>The first chart tracks US inflation level.</p>
         <div class="chart" id="Chart1"></div>
 
-        <p>My second chart looks at the wholesale gas prices in the UK</p>
+        <p>My second chart looks at the budget deficit in the UK</p>
         <div class="chart" id="Chart2"> </div>
 
     </div> 
 
 
     <div class="myWeek2">
-        <h2>Week2</h2>
+        <h2>Week2 -Twocharts: Replicating one from the FT and my original one</h2>
 
-        <p>IMF lending is at an all time high.</p>
+        <p>Chart 1 is used by the FT.</p>
         <div class="chart" id="Chart3"> </div>
+
+        <p>Chart 2 is the corrected one.</p>
+        <div class="chart" id="Chart4"> </div>
     </div> 
 </body>
 
 
 <script>
     //Define charts:
-    var myChart1 = "inflation.json";
-    var myChart2 = "Gas price.json";
+    var myChart1 = "US_inflation.json";
+    var myChart2 = "UK_BudgetDeficit.json";
     var myChart3 = "IMF_lending.json";
-
+    
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);

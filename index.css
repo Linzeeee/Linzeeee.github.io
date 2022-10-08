@@ -21,6 +21,7 @@ h1{
     font-size:60px;
     text-align: center;
     border-style: double;
+    border-width: 5px;
     border-radius: 10px;
     border-color: black;
 }
@@ -28,17 +29,18 @@ h1{
 h2{
     color:rgb(17, 17, 17);
     font-family: 'Arial', sans-serif;
-    font-size:35px ;
+    font-size:30px ;
     text-align: center;
     border-style: solid;
     border-radius: 10px;
     border-color: black;
+    border-width: 2px;
 }
 
 p{
     color:rgb(17, 17, 17);
     font-family: 'Times New Roman', serif;
-    font-size:25px ;
+    font-size:20px ;
     text-align: center;
 }
     
@@ -50,14 +52,13 @@ p{
 
 /* Set the apperance of the class, chart */
 .chart{
-    background-color: rgb(245, 244, 243);
+    margin:auto;
     width:100%;
+    background-color: rgb(245, 244, 243);
     border-width: 10px;
     border-style: solid;
     border-radius: 5px;
     border-color: rgb(196, 192, 187);
-    margin-left: auto;
-    margin-right: auto;
 
 }
     
