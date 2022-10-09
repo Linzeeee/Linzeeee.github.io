@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "IMF Lending Outstanding ",
-    "subtitle": "Loan disbursed $bn*",
+    "text": "Chart 1: IMF Lending Outstanding ",
+    "subtitle": "Credit Outstanding to all members, SDRs(billions), Source: IMF",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
@@ -11,17 +11,19 @@
   "data": {
     "url": "https://raw.githubusercontent.com/Linzeeee/Linzeeee.github.io/main/data_IMF_creditOutstanding.csv"
   },
-  "height": 400,
-  "width": "container",
-  "mark": {"type": "bar", "color": "#86d0bb"},
+  "transform": [{"calculate": "datum.Totals/1000000000","as": "Billions"}],
+
+  "height": 300,
+  "width":"container",
+  "mark": {"type": "bar", "color": "rgb(0,47,167)"},
   "encoding": {
     "x": {
       "field": "Year",
-      "type": "nominal",
+      "type": "temporal",
       "axis": {"title": null, "grid": false, "ticks": true, "labelAngle": 60}
     },
     "y": {
-      "field": "Totals",
+      "field": "Billions",
       "type": "quantitative",
       "title": "",
       "axis": {"grid": false}
