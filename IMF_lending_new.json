@@ -27,7 +27,15 @@
         "type": "quantitative",
         "title": "",
         "axis": {"grid": false}
-      }
+      },
+      "tooltip": [
+
+        {"field": "Year", "type": "temporal", "title": "year", "timeUnit": "year"},
+  
+        {"field": "Billionss", "type": "quantitative", "title": "IMF lending/GDP per capita"}
+  
+      ]
+
     },
     "config": {}
   }
