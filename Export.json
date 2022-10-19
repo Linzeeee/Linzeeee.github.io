@@ -1,0 +1,33 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple bar chart with embedded data.",
+    "data": {
+      "values":[{"Year": 1960, "% of GDP": 4.31}, {"Year": 1961, "% of GDP": 3.87}, {"Year": 1962, "% of GDP": 4.05}, {"Year": 1963, "% of GDP": 4.01}, {"Year": 1964, "% of GDP": 3.77}, {"Year": 1965, "% of GDP": 3.64}, {"Year": 1966, "% of GDP": 3.49}, {"Year": 1967, "% of GDP": 3.28}, {"Year": 1968, "% of GDP": 3.3}, {"Year": 1969, "% of GDP": 3.05}, {"Year": 1970, "% of GDP": 2.49}, {"Year": 1971, "% of GDP": 2.79}, {"Year": 1972, "% of GDP": 3.25}, {"Year": 1973, "% of GDP": 4.24}, {"Year": 1974, "% of GDP": 4.93}, {"Year": 1975, "% of GDP": 4.7}, {"Year": 1976, "% of GDP": 4.51}, {"Year": 1977, "% of GDP": 4.3}, {"Year": 1978, "% of GDP": 4.56}, {"Year": 1979, "% of GDP": 5.16}, {"Year": 1980, "% of GDP": 5.91}, {"Year": 1981, "% of GDP": 7.45}, {"Year": 1982, "% of GDP": 7.96}, {"Year": 1983, "% of GDP": 7.2}, {"Year": 1984, "% of GDP": 7.89}, {"Year": 1985, "% of GDP": 8.33}, {"Year": 1986, "% of GDP": 8.72}, {"Year": 1987, "% of GDP": 10.42}, {"Year": 1988, "% of GDP": 11.01}, {"Year": 1989, "% of GDP": 9.03}, {"Year": 1990, "% of GDP": 12.45}, {"Year": 1991, "% of GDP": 13.44}, {"Year": 1992, "% of GDP": 13.56}, {"Year": 1993, "% of GDP": 12.0}, {"Year": 1994, "% of GDP": 18.54}, {"Year": 1995, "% of GDP": 17.95}, {"Year": 1996, "% of GDP": 17.92}, {"Year": 1997, "% of GDP": 19.49}, {"Year": 1998, "% of GDP": 18.34}, {"Year": 1999, "% of GDP": 18.16}, {"Year": 2000, "% of GDP": 20.89}, {"Year": 2001, "% of GDP": 20.31}, {"Year": 2002, "% of GDP": 22.64}, {"Year": 2003, "% of GDP": 26.98}, {"Year": 2004, "% of GDP": 31.06}, {"Year": 2005, "% of GDP": 33.83}, {"Year": 2006, "% of GDP": 36.04}, {"Year": 2007, "% of GDP": 35.43}, {"Year": 2008, "% of GDP": 32.6}, {"Year": 2009, "% of GDP": 24.75}, {"Year": 2010, "% of GDP": 27.19}, {"Year": 2011, "% of GDP": 26.57}, {"Year": 2012, "% of GDP": 25.49}, {"Year": 2013, "% of GDP": 24.6}, {"Year": 2014, "% of GDP": 23.51}, {"Year": 2015, "% of GDP": 21.35}, {"Year": 2016, "% of GDP": 19.58}, {"Year": 2017, "% of GDP": 19.69}, {"Year": 2018, "% of GDP": 19.11}, {"Year": 2019, "% of GDP": 18.41}, {"Year": 2020, "% of GDP": 18.54}, {"Year": 2021, "% of GDP": 20.01}]
+    },
+
+    "height": 300,
+    "width":"container",
+    "mark": {"type": "line", "point":true,"color": "rgb(0,47,167)"},
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "nominal",
+        "axis": {"title": null, "grid": false, "ticks": true, "labelAngle": 80}
+      },
+      "y": {
+        "field": "% of GDP",
+        "type": "quantitative",
+        "title": "",
+        "axis": {"grid": false}
+      },
+      "tooltip": [
+
+        {"field": "Year", "type": "nominal", "title": "year"},
+  
+        {"field": "% of GDP", "type": "quantitative", "title": "Exports % of GDP"}
+  
+      ]
+
+    }
+}
+  
