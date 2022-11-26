@@ -9,7 +9,8 @@
 
 /* Set the background color for my page: */
 body{
-    background-color: rgb(243, 232, 232);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(206, 193, 193);
  
 }
 
@@ -34,7 +35,7 @@ h2{
     border-style: solid;
     border-radius: 10px;
     border-color: black;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 p{
@@ -44,10 +45,14 @@ p{
     text-align: center;
 }
     
-.myWeek1,.myWeek2,.myWeek3{
+.myWeek{
     margin: auto;
-    width: 50%;
-    background-color: rgba(243, 232, 232);
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    padding-bottom:1.5cm;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
 }
 
 /* Set the apperance of the class, chart */
@@ -60,17 +65,30 @@ p{
     border-radius: 5px;
     border-color: rgb(196, 192, 187);
 
-}ul {
+}
+
+.chart1{
+  margin:auto;
+    width:50%;
+    background-color: rgb(245, 244, 243);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(196, 192, 187);
+}
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: rgb(243, 232, 232)9;
-  }
-  
+    background-color: rgb(245, 244, 243);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:grey;
+}
   li {
-    float: left;
+    float: center;
   }
   
   li a {
