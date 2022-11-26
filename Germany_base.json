@@ -1,0 +1,24 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 700,
+    "height": 500,
+    "data": {
+      "url": "https://raw.githubusercontent.com/Linzeeee/Linzeeee.github.io/main/polygons.json",
+      "format": {"property": "features"}
+    },
+    "projection": {"type": "mercator"},
+  
+  
+    "mark": {
+      "type": "geoshape",
+      "stroke": "darkgray",
+      "strokeWidth": 1
+    },
+
+    "encoding": {
+  
+      "tooltip": [
+        {"field": "properties.NAME_1", "type": "nominal","title":"State"}
+      ]
+    }
+  }

@@ -1,0 +1,40 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 700,
+    "height": 500,
+    "data": {
+      "url": "https://raw.githubusercontent.com/Linzeeee/Linzeeee.github.io/main/polygons.json",
+      "format": {"property": "features"}
+    },
+    "projection": {"type": "mercator"},
+  
+    "transform": [
+      {
+        "lookup": "properties.NAME_1",
+        "from":{"data":{
+          "url": "https://raw.githubusercontent.com/Linzeeee/Linzeeee.github.io/main/Germany.csv"},
+          "key": "State",
+          "fields": ["GDP_dollar"]
+        }
+      }
+    ],
+  
+    "mark": {
+      "type": "geoshape",
+      "stroke": "darkgray",
+      "strokeWidth": 1
+    },
+    "encoding": {
+      "color":{
+        "field":"GDP_dollar",
+        "title":"GDP per capita(m$)",
+        "type": "quantitative"
+      },
+  
+      "tooltip": [
+        {"field": "properties.NAME_1", "type": "nominal","title":"State"},
+        {"field":"GDP_dollar","title":"GDP per capita" }
+        
+      ]
+    }
+  }
