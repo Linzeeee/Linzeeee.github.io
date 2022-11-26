@@ -1,0 +1,30 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Linzeeee/Linzeeee.github.io/main/Snooker.csv"
+  },
+
+
+  "mark": {
+  "type":"bar",
+  "color":"rgba(0,67,167, 1)"},
+
+  
+  "height": 300,
+  "width":"container",
+  "encoding": {
+    "y": {"field": "Name", "type": "ordinal"},
+    "x": {"field": "Sum", "type": "quantitative","title":"Scores"},
+
+    "tooltip": [
+
+      {"field": "Nationality", "type": "ordinal", "title": "Nationality"},
+  
+      {"field": "Sum", "type": "quantitative", "title": "Scores"}
+  
+    ]
+  }
+
+}
+
