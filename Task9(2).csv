@@ -1,11 +1,21 @@
-Country,GDP,CPI,Grossdebt
-China,30074,2,77
-Germany,5317,8,71
-India,11665,7,83
-Japan,6110,2,264
-Korea,2766,5,54
-Russia,4650,14,16
-Singapore,701,6,141
-United Kingdom,3776,9,87
-United States,25035,8,122
-Vietnam,1300,4,40
+Country,GDP,GSS,Inflation
+Australia,1725,25,6
+Brazil,1895,17,9
+Canada,2200,24,7
+China,18321,46,2
+France,2778,24,6
+Germany,4031,27,8
+India,3469,29,7
+Indonesia,1289,32,5
+Italy,1997,22,9
+Japan,4301,27,2
+Korea,1734,35,5
+Malaysia,434,23,3
+Mexico,1425,20,8
+Russia,2133,32,14
+Singapore,424,36,6
+South Africa,411,15,7
+Spain,1390,23,9
+United Kingdom,3198,13,9
+United States,25035,21,8
+Vietnam,414,35,4
