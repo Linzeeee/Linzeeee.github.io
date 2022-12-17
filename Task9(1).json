@@ -1,0 +1,67 @@
+{ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "Relationship between HDI and GNP per capita",
+
+  "title": {
+    "text": "Relationship between HDI and GNP per capita",
+    "subtitle":["2021 Human development Index(x), and 2021 GNP per capita (2017 PPP$)","Source: UNDP"],
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "data": {"url": "https://raw.githubusercontent.com/Linzeeee/Linzeeee.github.io/main/HDI.csv"},
+
+   
+  "height": 300,
+  "width": 350,
+
+"layer":[{
+
+  "mark": {
+    "type":"circle",
+    "color":"rgb(0,47,167)",
+    "size":100},
+ 
+
+  "encoding": {
+    "x": {
+      "field": "Gross National Income per capita", 
+      "type": "quantitative",
+      "scale": {"domain": [10000, 150000]},
+      "title":"Gross National Income per capita"
+      },
+
+    "y": {
+      "field": "Human Development Index", 
+      "type": "quantitative",
+      "scale": {"domain": [0.8, 1]},
+      "title":"Human Development Index"
+      },
+
+    "tooltip": [
+            {"field": "Human Development Index", "type": "quantitative", "title": "Human Development Index"},
+
+            {"field":"Gross National Income per capita", "type": "quantitative", "title": "GNP per capita"},
+
+            {"field": "Country", "type": "nominal", "title": "Country"}
+      
+          ]
+
+  }},
+
+    {
+      "mark": {"type": "line", "color": "black"},
+
+      "transform": [{"regression": "Gross National Income per capita", "on": "Human Development Index"}],
+         
+      "encoding": {
+        "x": {"field": "Gross National Income per capita", "type": "quantitative"},
+        "y": {"field": "Human Development Index", "type": "quantitative"}
+      }
+    }
+]
+
+}
+
