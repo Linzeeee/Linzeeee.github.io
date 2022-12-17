@@ -11,6 +11,8 @@
 body{
     background-color: rgb(255, 255, 255);
     border-color: rgb(206, 193, 193);
+    text-align: center;
+    justify-content: center
  
 }
 
@@ -18,12 +20,12 @@ body{
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1{
     color:rgb(17, 17, 17);
-    font-family: 'Georgia', serif;
+    font-family: 'Arial', serif;
     font-size:60px;
     text-align: center;
-    border-style: double;
+    border-top-style: double;
+    border-bottom-style: double;
     border-width: 5px;
-    border-radius: 10px;
     border-color: black;
 }
 
@@ -32,35 +34,35 @@ h2{
     font-family: 'Arial', sans-serif;
     font-size:30px ;
     text-align: center;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: black;
-    border-width: 1px;
 }
 
 p{
     color:rgb(17, 17, 17);
-    font-family: 'Times New Roman', serif;
+    font-family: 'Arial', serif;
     font-size:20px ;
     text-align: center;
 }
     
 .myWeek{
-    margin: auto;
-    width: 60%;
-    background-color: rgb(255, 255, 255);
-    padding-bottom:1.5cm;
-    border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-bottom-color: black;
+  margin: auto;
+  margin-bottom:50px;
+  margin-top:20px;
+  width: 85%;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 10px;
+  padding-bottom:1cm;
+  padding-top:1cm
 }
 
 /* Set the apperance of the class, chart */
 .chart{
     margin:auto;
-    width:100%;
+    width:70%;
     background-color: rgb(245, 244, 243);
-    border-width: 10px;
+    border-width: 5px;
     border-style: solid;
     border-radius: 5px;
     border-color: rgb(196, 192, 187);
@@ -69,13 +71,23 @@ p{
 
 .chart1{
   margin:auto;
-    width:50%;
-    background-color: rgb(245, 244, 243);
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: rgb(196, 192, 187);
+  width:350;
+  background-color: rgb(245, 244, 243);
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(196, 192, 187);
+
 }
+
+.chart2{
+  margin:auto;
+  width:375px;
+  background-color: rgb(245, 244, 243);
+  padding: 10px;
+
+}
+
 
 ul {
     list-style-type: none;
@@ -83,17 +95,19 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgb(245, 244, 243);
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color:grey;
+    border-width: 1px;
+    border-color:grey;
+    border-top-style: solid;
+    border-bottom-style:solid;
 }
+
   li {
     float: center;
   }
   
   li a {
     font-size: 20px;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Arial', serif;
     display: block;
     color: #666;
     text-align: center;

@@ -18,7 +18,7 @@
     
     "mark": {"type": "line", "color": "rgb(0,47,167)"},
     "height": 200,
-    "width":"container",
+    "width":270,
     "encoding": {
         "y": {"field": "value", "type": "quantitative"},
         "x": {"field": "year", "type": "temporal"},

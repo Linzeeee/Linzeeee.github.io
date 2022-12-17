@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
-        "text":"Net lending to private sector and rest of world: £m",
+        "text":"Employment rate(aged 16 to 64): %",
         "subtitle": "Source:ONS",
         "subtitleFontStyle": "italic",
         "subtitleFontSize": 10,
@@ -9,16 +9,16 @@
         "color": "black"
     },
     "data": {
-        "url": "https://raw.githubusercontent.com/Linzeeee/Linzeeee.github.io/main/data_ONS-ANRH.json",
+        "url": "https://raw.githubusercontent.com/Linzeeee/Linzeeee.github.io/main/data_ONS-LF24.json",
         "format":{
           "type": "json",
-          "property": "quarters"
+          "property": "years"
         }
     },
     
-    "mark": {"type": "line", "color": "rgb(0,47,167)"},
+    "mark": {"type": "line", "color": "rgb(0,47,167)","strokeWidth":3},
     "height": 200,
-    "width":270,
+    "width":"container",
     "encoding": {
         "y": {"field": "value", "type": "quantitative"},
         "x": {"field": "year", "type": "temporal"},
