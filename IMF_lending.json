@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Chart 1: IMF Lending Outstanding ",
+    "text": "IMF Lending Outstanding ",
     "subtitle": "Credit Outstanding to all members, SDRs(billions), Source: IMF",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
