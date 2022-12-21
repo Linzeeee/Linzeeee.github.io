@@ -1,0 +1,65 @@
+age,type,value
+15-19,All other alcohol-specific causes,0
+20-24,All other alcohol-specific causes,1
+25-29,All other alcohol-specific causes,1
+30-34,All other alcohol-specific causes,8
+35-39,All other alcohol-specific causes,22
+40-44,All other alcohol-specific causes,34
+45-49,All other alcohol-specific causes,44
+50-54,All other alcohol-specific causes,55
+55-59,All other alcohol-specific causes,65
+60-64,All other alcohol-specific causes,45
+65-69,All other alcohol-specific causes,32
+70-74,All other alcohol-specific causes,32
+75-79,All other alcohol-specific causes,11
+80-84,All other alcohol-specific causes,2
+85-89,All other alcohol-specific causes,1
+90+,All other alcohol-specific causes,1
+15-19,Mental and behavioural disorders due to the use of alcohol,0
+20-24,Mental and behavioural disorders due to the use of alcohol,0
+25-29,Mental and behavioural disorders due to the use of alcohol,3
+30-34,Mental and behavioural disorders due to the use of alcohol,24
+35-39,Mental and behavioural disorders due to the use of alcohol,46
+40-44,Mental and behavioural disorders due to the use of alcohol,68
+45-49,Mental and behavioural disorders due to the use of alcohol,115
+50-54,Mental and behavioural disorders due to the use of alcohol,153
+55-59,Mental and behavioural disorders due to the use of alcohol,149
+60-64,Mental and behavioural disorders due to the use of alcohol,135
+65-69,Mental and behavioural disorders due to the use of alcohol,145
+70-74,Mental and behavioural disorders due to the use of alcohol,101
+75-79,Mental and behavioural disorders due to the use of alcohol,70
+80-84,Mental and behavioural disorders due to the use of alcohol,43
+85-89,Mental and behavioural disorders due to the use of alcohol,17
+90+,Mental and behavioural disorders due to the use of alcohol,14
+15-19,External causes,3
+20-24,External causes,4
+25-29,External causes,11
+30-34,External causes,36
+35-39,External causes,47
+40-44,External causes,73
+45-49,External causes,86
+50-54,External causes,89
+55-59,External causes,83
+60-64,External causes,52
+65-69,External causes,37
+70-74,External causes,18
+75-79,External causes,10
+80-84,External causes,1
+85-89,External causes,2
+90+,External causes,0
+15-19,Alcoholic liver disease,0
+20-24,Alcoholic liver disease,4
+25-29,Alcoholic liver disease,31
+30-34,Alcoholic liver disease,118
+35-39,Alcoholic liver disease,316
+40-44,Alcoholic liver disease,514
+45-49,Alcoholic liver disease,829
+50-54,Alcoholic liver disease,1089
+55-59,Alcoholic liver disease,1227
+60-64,Alcoholic liver disease,1049
+65-69,Alcoholic liver disease,848
+70-74,Alcoholic liver disease,542
+75-79,Alcoholic liver disease,289
+80-84,Alcoholic liver disease,96
+85-89,Alcoholic liver disease,28
+90+,Alcoholic liver disease,5
