@@ -1,0 +1,148 @@
+Area,Mortality,Admission
+Barking and Dagenham,7.95,1462.70
+Barnet,6.74,1181.46
+Barnsley,14.28,1891.96
+Bath and North East Somerset,8.84,1258.14
+Bedford,11.28,1166.26
+Bexley,9.03,1457.59
+Birmingham,15.15,1887.34
+Blackburn with Darwen,18.69,2132.87
+Blackpool,31.85,2489.44
+Bolton,18.95,1481.48
+"Bournemouth, Christchurch and Poole",12.48,1815.70
+Bracknell Forest,6.32,1082.00
+Bradford,13.76,1627.76
+Brent,10.21,1670.45
+Brighton and Hove,16.63,1055.41
+Bristol,14.84,2145.25
+Bromley,8.00,1206.50
+Buckinghamshire UA,8.45,1078.96
+Bury,15.24,1442.43
+Calderdale,15.45,1424.32
+Cambridgeshire,7.86,1342.40
+Camden,11.64,1297.67
+Central Bedfordshire,8.46,1288.23
+Cheshire East,11.87,1405.63
+Cheshire West and Chester,12.84,1370.78
+Cornwall,11.16,1334.72
+County Durham,19.35,1646.11
+Coventry,15.60,2300.42
+Croydon,7.37,1229.26
+Cumbria,12.80,1437.39
+Darlington,16.93,1642.94
+Derby,16.21,1987.45
+Derbyshire,12.92,1555.22
+Devon,9.17,1225.84
+Doncaster,14.91,1603.18
+Dorset,8.41,1266.15
+Dudley,17.39,1601.48
+Ealing,11.01,1907.61
+East Riding of Yorkshire,7.28,1276.47
+East Sussex,10.68,1350.15
+Enfield,5.38,1319.30
+Gateshead,18.33,2187.65
+Gloucestershire,9.98,1258.43
+Greenwich,9.01,1546.02
+Hackney,11.49,1665.20
+Halton,19.69,1852.39
+Hammersmith and Fulham,8.15,1754.71
+Hampshire,8.33,1552.58
+Haringey,8.95,1457.17
+Harrow,6.31,1436.26
+Hartlepool,21.35,2124.57
+Havering,8.25,1172.58
+Herefordshire,9.64,1222.30
+Hertfordshire,9.55,1289.27
+Hillingdon,13.07,1354.16
+Hounslow,10.81,1725.91
+Isle of Wight,10.86,1516.31
+Islington,11.55,1757.75
+Kensington and Chelsea,8.34,1158.29
+Kent,10.49,1270.46
+Kingston upon Hull,15.14,1911.99
+Kingston upon Thames,10.63,1380.22
+Kirklees,15.72,1318.23
+Knowsley,16.56,2269.74
+Lambeth,14.47,1690.03
+Lancashire,16.09,1694.85
+Leeds,14.32,1332.36
+Leicester,14.82,1905.71
+Leicestershire,10.95,1308.07
+Lewisham,12.80,1516.37
+Lincolnshire,10.47,1252.90
+Liverpool,18.93,2263.52
+Luton,10.65,1762.79
+Manchester,19.17,2100.54
+Medway,12.03,1229.32
+Merton,8.46,1399.02
+Middlesbrough,21.01,1956.78
+Milton Keynes,11.64,1297.99
+Newcastle upon Tyne,19.16,2090.08
+Newham,11.27,1462.61
+Norfolk,10.06,1373.83
+North East Lincolnshire,18.47,1780.04
+North Lincolnshire,13.57,1588.43
+North Northamptonshire,12.22,1439.92
+North Somerset,10.74,1659.49
+North Tyneside,16.78,2242.36
+North Yorkshire,8.83,1368.76
+Northumberland,14.57,2008.03
+Nottingham,18.41,1974.30
+Nottinghamshire,13.44,1542.10
+Oldham,19.31,1640.34
+Oxfordshire,9.45,1200.36
+Peterborough,13.47,1445.07
+Plymouth,11.14,1376.09
+Portsmouth,15.13,1815.94
+Reading,16.92,1443.62
+Redbridge,8.91,1189.51
+Redcar and Cleveland,14.84,1600.86
+Richmond upon Thames,10.89,1238.67
+Rochdale,17.32,1657.13
+Rotherham,13.83,1922.05
+Rutland,8.31,1018.82
+Salford,16.90,2314.43
+Sandwell,18.42,1583.38
+Sefton,15.48,1867.69
+Sheffield,13.43,1449.14
+Shropshire,10.74,1320.74
+Slough,14.77,1598.26
+Solihull,10.58,1522.30
+Somerset,10.45,1471.73
+South Gloucestershire,8.70,1561.57
+South Tyneside,23.01,2317.32
+Southampton,17.04,3458.87
+Southwark,9.90,1665.79
+St. Helens,20.77,1976.65
+Staffordshire,12.20,1622.49
+Stockport,17.87,1532.86
+Stockton-on-Tees,19.15,1911.88
+Stoke-on-Trent,19.22,2183.60
+Suffolk,8.75,1245.12
+Sunderland,22.43,2401.34
+Surrey,8.86,1253.44
+Sutton,9.25,1171.27
+Swindon,12.81,1693.70
+Tameside,19.68,1820.03
+Telford and Wrekin,15.37,1636.04
+Torbay,18.34,1763.30
+Tower Hamlets,12.58,1425.64
+Trafford,13.35,1441.48
+Wakefield,16.39,1543.88
+Walsall,17.55,1610.59
+Waltham Forest,8.70,1332.89
+Wandsworth,10.79,1509.89
+Warrington,14.27,1534.87
+Warwickshire,9.29,1543.45
+West Berkshire,11.47,1069.98
+West Northamptonshire,9.69,1488.17
+West Sussex,10.26,1208.62
+Westminster,7.11,1161.69
+Wigan,21.29,1794.45
+Wiltshire,9.25,1244.31
+Windsor and Maidenhead,11.63,1065.13
+Wirral,17.10,1992.77
+Wokingham,8.82,961.62
+Wolverhampton,19.00,1775.48
+Worcestershire,12.89,1429.24
+York,7.30,1628.77
