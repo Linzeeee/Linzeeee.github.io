@@ -1,0 +1,297 @@
+Indicator,Area,Value
+Volume,Barking and Dagenham,3.25
+Volume,Barnet,2.85
+Volume,Barnsley,7.74
+Volume,Bath and North East Somerset,4.55
+Volume,Bedford,5.83
+Volume,Bexley,3.78
+Volume,Birmingham,5.16
+Volume,Blackburn with Darwen,6.26
+Volume,Blackpool,9.40
+Volume,Bolton,7.55
+Volume,Bracknell Forest,4.06
+Volume,Bradford,8.16
+Volume,Brent,3.71
+Volume,Brighton and Hove,7.83
+Volume,Bristol,6.38
+Volume,Bromley,3.60
+Volume,Buckinghamshire UA,3.72
+Volume,Bury,6.99
+Volume,Calderdale,4.30
+Volume,Cambridgeshire,4.76
+Volume,Camden,6.08
+Volume,Central Bedfordshire,4.02
+Volume,Cheshire East,6.06
+Volume,Cheshire West and Chester,6.28
+Volume,Cornwall,7.99
+Volume,County Durham,6.98
+Volume,Coventry,4.97
+Volume,Croydon,4.93
+Volume,Cumbria,6.98
+Volume,Darlington,8.54
+Volume,Derby,7.08
+Volume,Derbyshire,5.22
+Volume,Devon,6.86
+Volume,Doncaster,7.34
+Volume,Dudley,5.32
+Volume,Ealing,4.99
+Volume,East Riding of Yorkshire,6.25
+Volume,East Sussex,6.73
+Volume,Enfield,3.94
+Volume,Essex,4.26
+Volume,Gateshead,4.65
+Volume,Gloucestershire,4.42
+Volume,Greenwich,4.36
+Volume,Hackney,4.30
+Volume,Halton,5.22
+Volume,Hammersmith and Fulham,6.36
+Volume,Hampshire,5.54
+Volume,Haringey,7.51
+Volume,Harrow,4.54
+Volume,Hartlepool,8.62
+Volume,Havering,4.27
+Volume,Herefordshire,6.42
+Volume,Hertfordshire,4.53
+Volume,Hillingdon,4.82
+Volume,Hounslow,5.18
+Volume,Isle of Wight,6.49
+Volume,Islington,5.53
+Volume,Kensington and Chelsea,5.98
+Volume,Kent,5.52
+Volume,Kingston upon Hull,5.49
+Volume,Kingston upon Thames,5.92
+Volume,Kirklees,5.26
+Volume,Knowsley,5.26
+Volume,Lambeth,3.59
+Volume,Lancashire,6.83
+Volume,Leeds,4.99
+Volume,Leicester,6.29
+Volume,Leicestershire,4.57
+Volume,Lewisham,4.92
+Volume,Lincolnshire,5.97
+Volume,Liverpool,4.92
+Volume,Luton,5.99
+Volume,Manchester,7.10
+Volume,Medway,5.47
+Volume,Merton,5.22
+Volume,Middlesbrough,3.98
+Volume,Milton Keynes,3.41
+Volume,Newcastle upon Tyne,9.19
+Volume,Newham,4.12
+Volume,Norfolk,4.99
+Volume,North East Lincolnshire,6.99
+Volume,North Lincolnshire,5.11
+Volume,North Northamptonshire,6.53
+Volume,North Somerset,6.16
+Volume,North Tyneside,8.35
+Volume,North Yorkshire,4.95
+Volume,Northumberland,8.18
+Volume,Nottingham,4.91
+Volume,Nottinghamshire,5.07
+Volume,Oldham,8.06
+Volume,Oxfordshire,5.10
+Volume,Peterborough,7.16
+Volume,Plymouth,5.62
+Volume,Portsmouth,6.58
+Volume,Reading,9.10
+Volume,Redbridge,3.23
+Volume,Redcar and Cleveland,4.49
+Volume,Richmond upon Thames,5.77
+Volume,Rochdale,7.02
+Volume,Rotherham,5.12
+Volume,Rutland,5.80
+Volume,Salford,6.97
+Volume,Sandwell,4.06
+Volume,Sefton,6.65
+Volume,Sheffield,4.66
+Volume,Shropshire,5.33
+Volume,Slough,5.54
+Volume,Solihull,4.75
+Volume,Somerset,6.54
+Volume,South Gloucestershire,4.60
+Volume,South Tyneside,8.10
+Volume,Southampton,5.89
+Volume,Southend-on-Sea,4.62
+Volume,Southwark,3.59
+Volume,St. Helens,7.35
+Volume,Staffordshire,4.19
+Volume,Stockport,5.98
+Volume,Stockton-on-Tees,3.83
+Volume,Stoke-on-Trent,7.14
+Volume,Suffolk,4.66
+Volume,Sunderland,4.45
+Volume,Surrey,4.72
+Volume,Sutton,4.46
+Volume,Swindon,4.06
+Volume,Tameside,8.29
+Volume,Telford and Wrekin,5.70
+Volume,Thurrock,4.58
+Volume,Torbay,6.84
+Volume,Tower Hamlets,4.32
+Volume,Trafford,5.99
+Volume,Wakefield,7.56
+Volume,Walsall,5.68
+Volume,Waltham Forest,4.34
+Volume,Wandsworth,6.08
+Volume,Warrington,5.97
+Volume,Warwickshire,5.39
+Volume,West Berkshire,6.30
+Volume,West Northamptonshire,6.42
+Volume,West Sussex,4.39
+Volume,Westminster,5.41
+Volume,Wigan,5.43
+Volume,Wiltshire,6.56
+Volume,Windsor and Maidenhead,6.78
+Volume,Wirral,5.69
+Volume,Wokingham,3.92
+Volume,Wolverhampton,5.83
+Volume,Worcestershire,4.68
+Volume,York,6.38
+Mortality,Barking and Dagenham,7.95
+Mortality,Barnet,6.74
+Mortality,Barnsley,14.28
+Mortality,Bath and North East Somerset,8.84
+Mortality,Bedford,11.28
+Mortality,Bexley,9.03
+Mortality,Birmingham,15.15
+Mortality,Blackburn with Darwen,18.69
+Mortality,Blackpool,31.85
+Mortality,Bolton,18.95
+Mortality,Bracknell Forest,6.32
+Mortality,Bradford,13.76
+Mortality,Brent,10.21
+Mortality,Brighton and Hove,16.63
+Mortality,Bristol,14.84
+Mortality,Bromley,8.00
+Mortality,Buckinghamshire UA,8.45
+Mortality,Bury,15.24
+Mortality,Calderdale,15.45
+Mortality,Cambridgeshire,7.86
+Mortality,Camden,11.64
+Mortality,Central Bedfordshire,8.46
+Mortality,Cheshire East,11.87
+Mortality,Cheshire West and Chester,12.84
+Mortality,Cornwall,11.16
+Mortality,County Durham,19.35
+Mortality,Coventry,15.60
+Mortality,Croydon,7.37
+Mortality,Cumbria,12.80
+Mortality,Darlington,16.93
+Mortality,Derby,16.21
+Mortality,Derbyshire,12.92
+Mortality,Devon,9.17
+Mortality,Doncaster,14.91
+Mortality,Dudley,17.39
+Mortality,Ealing,11.01
+Mortality,East Riding of Yorkshire,7.28
+Mortality,East Sussex,10.68
+Mortality,Enfield,5.38
+Mortality,Essex,10.60
+Mortality,Gateshead,18.33
+Mortality,Gloucestershire,9.98
+Mortality,Greenwich,9.01
+Mortality,Hackney,11.49
+Mortality,Halton,19.69
+Mortality,Hammersmith and Fulham,8.15
+Mortality,Hampshire,8.33
+Mortality,Haringey,8.95
+Mortality,Harrow,6.31
+Mortality,Hartlepool,21.35
+Mortality,Havering,8.25
+Mortality,Herefordshire,9.64
+Mortality,Hertfordshire,9.55
+Mortality,Hillingdon,13.07
+Mortality,Hounslow,10.81
+Mortality,Isle of Wight,10.86
+Mortality,Islington,11.55
+Mortality,Kensington and Chelsea,8.34
+Mortality,Kent,10.49
+Mortality,Kingston upon Hull,15.14
+Mortality,Kingston upon Thames,10.63
+Mortality,Kirklees,15.72
+Mortality,Knowsley,16.56
+Mortality,Lambeth,14.47
+Mortality,Lancashire,16.09
+Mortality,Leeds,14.32
+Mortality,Leicester,14.82
+Mortality,Leicestershire,10.95
+Mortality,Lewisham,12.80
+Mortality,Lincolnshire,10.47
+Mortality,Liverpool,18.93
+Mortality,Luton,10.65
+Mortality,Manchester,19.17
+Mortality,Medway,12.03
+Mortality,Merton,8.46
+Mortality,Middlesbrough,21.01
+Mortality,Milton Keynes,11.64
+Mortality,Newcastle upon Tyne,19.16
+Mortality,Newham,11.27
+Mortality,Norfolk,10.06
+Mortality,North East Lincolnshire,18.47
+Mortality,North Lincolnshire,13.57
+Mortality,North Northamptonshire,12.22
+Mortality,North Somerset,10.74
+Mortality,North Tyneside,16.78
+Mortality,North Yorkshire,8.83
+Mortality,Northumberland,14.57
+Mortality,Nottingham,18.41
+Mortality,Nottinghamshire,13.44
+Mortality,Oldham,19.31
+Mortality,Oxfordshire,9.45
+Mortality,Peterborough,13.47
+Mortality,Plymouth,11.14
+Mortality,Portsmouth,15.13
+Mortality,Reading,16.92
+Mortality,Redbridge,8.91
+Mortality,Redcar and Cleveland,14.84
+Mortality,Richmond upon Thames,10.89
+Mortality,Rochdale,17.32
+Mortality,Rotherham,13.83
+Mortality,Rutland,8.31
+Mortality,Salford,16.90
+Mortality,Sandwell,18.42
+Mortality,Sefton,15.48
+Mortality,Sheffield,13.43
+Mortality,Shropshire,10.74
+Mortality,Slough,14.77
+Mortality,Solihull,10.58
+Mortality,Somerset,10.45
+Mortality,South Gloucestershire,8.70
+Mortality,South Tyneside,23.01
+Mortality,Southampton,17.04
+Mortality,Southend-on-Sea,15.70
+Mortality,Southwark,9.90
+Mortality,St. Helens,20.77
+Mortality,Staffordshire,12.20
+Mortality,Stockport,17.87
+Mortality,Stockton-on-Tees,19.15
+Mortality,Stoke-on-Trent,19.22
+Mortality,Suffolk,8.75
+Mortality,Sunderland,22.43
+Mortality,Surrey,8.86
+Mortality,Sutton,9.25
+Mortality,Swindon,12.81
+Mortality,Tameside,19.68
+Mortality,Telford and Wrekin,15.37
+Mortality,Thurrock,9.99
+Mortality,Torbay,18.34
+Mortality,Tower Hamlets,12.58
+Mortality,Trafford,13.35
+Mortality,Wakefield,16.39
+Mortality,Walsall,17.55
+Mortality,Waltham Forest,8.70
+Mortality,Wandsworth,10.79
+Mortality,Warrington,14.27
+Mortality,Warwickshire,9.29
+Mortality,West Berkshire,11.47
+Mortality,West Northamptonshire,9.69
+Mortality,West Sussex,10.26
+Mortality,Westminster,7.11
+Mortality,Wigan,21.29
+Mortality,Wiltshire,9.25
+Mortality,Windsor and Maidenhead,11.63
+Mortality,Wirral,17.10
+Mortality,Wokingham,8.82
+Mortality,Wolverhampton,19.00
+Mortality,Worcestershire,12.89
+Mortality,York,7.30
