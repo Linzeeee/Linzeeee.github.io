@@ -9,71 +9,89 @@
 
 /* Set the background color for my page: */
 body{
-    background-color: rgb(255, 255, 255);
+    background-color:rgb(241, 241, 238);
     border-color: rgb(206, 193, 193);
     text-align: center;
-    justify-content: center
- 
+    justify-content: center;
 }
 
 
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1{
-    color:rgb(17, 17, 17);
-    font-family: 'Arial', serif;
+    margin:auto;
+    color: rgb(65, 48, 34);
+    font-family: 'Lato',serif;
     font-size:60px;
     text-align: center;
     border-top-style: double;
     border-bottom-style: double;
     border-width: 5px;
     border-color: black;
+    margin-top:30px;
+    width: 80%;
 }
 
 h2{
-    color:rgb(17, 17, 17);
-    font-family: 'Arial', sans-serif;
-    font-size:30px ;
+    color:rgb(65, 48, 34);
+    font-family: 'Lato',serif;
+    font-size:35px ;
     text-align: center;
 }
 
-p{
-    color:rgb(17, 17, 17);
-    font-family: 'Arial', serif;
-    font-size:20px ;
+hr {
+  border:none;
+  border-top:6px dotted #0a0a06; 
+  color:#0a0a08;
+  background-color: transparent;
+  height:3px;
+  width:65%;
+}
+
+p{  color: black;
+    font-family: 'Lato',serif;
+    font-size:22px ;
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:20px;
+    text-align: justify;
+}
+
+.p1{
+    color:(65, 48, 34);
+    font-family: 'Lato',serif;
+    font-size:22px ;
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:20px;
     text-align: center;
 }
-    
+
+
 .myWeek{
+  text-align: center;
+  justify-content: center;;
+  width:1000px;
   margin: auto;
   margin-bottom:50px;
-  margin-top:20px;
-  width: 85%;
-  background-color: rgb(255, 255, 255);
-  border-style: solid;
-  border-width: 3px;
-  border-color: black;
-  border-radius: 10px;
+  background-color: white;
   padding-bottom:1cm;
-  padding-top:1cm
+  border-style:double;
+  border-width:6px;
+  border-color: rgb(219, 215, 215);
+  border-radius: 10px;
 }
 
 /* Set the apperance of the class, chart */
+
+
 .chart{
-    margin:auto;
-    width:70%;
-    background-color: rgb(245, 244, 243);
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: rgb(196, 192, 187);
-
-}
-
-.chart1{
   margin:auto;
-  width:350;
-  background-color: rgb(245, 244, 243);
-  border-width: 5px;
+  margin-top:15px;
+  width:500px;
+  background-color: rgb(255, 255, 255);
+  border-width: 3px;
   border-style: solid;
   border-radius: 5px;
   border-color: rgb(196, 192, 187);
@@ -82,23 +100,39 @@ p{
 
 .chart2{
   margin:auto;
-  width:375px;
-  background-color: rgb(245, 244, 243);
+  width:400px;
+  background-color: white;
+  border-color: rgb(232, 230, 230);
+  border-style:solid;
+  border-radius:5px;
   padding: 10px;
 
 }
 
+.pchart{
+  margin:auto;
+  margin-top:15px;
+  width:600px;
+  background-color: rgb(255, 255, 255);
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(196, 192, 187);
+
+}
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(245, 244, 243);
-    border-width: 1px;
-    border-color:grey;
-    border-top-style: solid;
-    border-bottom-style:solid;
+  width:30%;
+  list-style-type: none;
+  margin: auto;
+  margin-top:25px;
+  padding:0;
+  overflow: hidden;
+  background-color: rgb(250, 247, 247);
+  border-radius:10px;
+  border-width: 1px;
+  border-color:grey;
+  border-style: solid;
 }
 
   li {
@@ -107,9 +141,9 @@ ul {
   
   li a {
     font-size: 20px;
-    font-family: 'Arial', serif;
+    font-family: 'Lato', serif;
     display: block;
-    color: #666;
+    color:black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -118,6 +152,17 @@ ul {
   li a:hover:not(.active) {
     background-color:white;
   }
+
+.ul1 {
+    color:(65, 48, 34);
+    font-family: 'Lato',serif;
+    font-size:20px ;
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:20px;
+    text-align: center;
+}
   
   
     
