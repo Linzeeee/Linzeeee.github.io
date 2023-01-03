@@ -1,0 +1,42 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple bar chart with embedded data.",
+
+    "title": {
+      "text": "NBA Players Statistics",
+      "subtitle":"Year:2022",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+
+    "data": {
+      "url":"https://raw.githubusercontent.com/Linzeeee/Linzeeee.github.io/main/NBA%20(5).csv"
+    },
+
+
+    "height": 300,
+    "width":"container",
+    "mark": {"type": "circle","size":25},
+    "encoding": {
+      "x": {
+        "field": "Dimension1",
+        "type": "quantitative",
+        "title":"Dimension1",
+        "axis":{"grid": false}
+      },
+      "y": {
+        "field": "Dimension2",
+        "type": "quantitative",
+        "title": "Dimension2",
+        "axis":{"grid": false}
+      },
+
+      "tooltip":[{"field":"Player"}],
+      "color": {"field": "Pos", "type": "nominal"}
+      
+      
+    }
+}
+  

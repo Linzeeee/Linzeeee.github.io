@@ -1,0 +1,41 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text":"Figure 6: Estimated cost of alcohol to NHS",
+        "subtitle": ["Detailed expenditure,Year:2012","Source: Department of Health"],
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 10,
+        "anchor": "start",
+        "color": "black"
+    },
+  
+    "width": "container",
+    "height": 300,
+    "data": {"url": "https://raw.githubusercontent.com/Linzeeee/Linzeeee.github.io/main/NHS_cost.csv"},
+    "encoding": {
+      "y": {
+        "field": "Type",
+        "type": "nominal",
+        "axis": null
+      }
+    },
+    "layer": [{
+      "mark": {"type": "bar", "color": "#88acab"},
+      "encoding": {
+        "x": {
+          "field": "Cost",
+          "type": "quantitative",
+          "title": "Costs(£m)"
+        },
+        "tooltip":{
+          "field":"Cost","type": "quantitative","title":"Cost"
+        }
+      }
+    }, {
+      "mark": {"type": "text", "align": "left", "x": 5},
+      "encoding": {
+        "text": {"field": "Type"},
+        "detail": {"aggregate": "count"}
+      }
+    }]
+  }
