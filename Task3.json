@@ -17,7 +17,34 @@
 
     "transform":[
       {"filter": "isValid(datum.Year)"},
-      {"calculate": "datetime(datum.Year, 1)", "as": "Year1"}
+      {"calculate": "datetime(datum.Year, 1)", "as": "Year1"},
+      {"filter": "datum.Year>=minYear"},
+      {"filter": "datum.Year<=maxYear"}
+      ],
+
+      "params": [
+        {
+          "name": "minYear",
+          "value": 1982,
+          "bind": {
+            "input": "range",
+            "min": 1982,
+            "max": 2022,
+            "step": 1,
+            "name": "Start year:"
+          }
+        },
+        {
+          "name": "maxYear",
+          "value": 2022,
+          "bind": {
+            "input": "range",
+            "min": 1982,
+            "max": 2022,
+            "step": 1,
+            "name": "End year:"
+          }
+        }
       ],
 
     "height": 300,
