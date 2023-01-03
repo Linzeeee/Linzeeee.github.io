@@ -22,11 +22,143 @@
 
 
 <body>
-    <ul>
-        <li><a href="index.html">Portfolio</a></li>
-        <li><a href="Project.html">Project</a></li>
-      </ul>
 
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
-    <div class="myWeek1">
-        <h1>Data Science Project</h1>
+    <div class="myWeek">
+        <h1>Adverse impacts of alcohol on UK society</h1>
+        <ul>
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="Project.html">Project</a></li>
+        </ul>
+
+        <h2>1. Aims of the Project</h2>
+        <p>
+        Alcohol is a relatively small industry in the UK, contributing roughly 2.5% of the total GDP. 
+        However, it causes many social problems, most of which are hidden from view. 
+        Hence this project aims to explore the harms that alcohol brings to the society. 
+        It will look at the alcohol consumption picture and analyze the social harms in three aspects: transport safety, public security and healthcare system.
+        </p>
+    </div>
+
+    <div class="myWeek">
+        <h2>2. Consumption</h2>
+        <div class="pchart" id="Chart1"> </div>
+        <p>
+        Figure 1 shows the alcohol consumption rate, measured by litres drinking per capita of pure alcohol in a year. 
+        The data source is British Beer & Pub Association 
+        and I downloaded the csv file from the <ul1><a href="https://www.ias.org.uk/factsheet/consumption/">Institute of Alcohol Studies</a></ul1>.   
+        The Chief Medical Officiers' guidelines consider drinking up to 14 units a week as low or moderate health risk, where 1 unit is equal to 10ml of pure alcohol. 
+        14 units a week is equal to 7 litres a year which is represented by the horizontal line.
+        The graph illustrates the amount of alcohol consumed in the UK over the years is excessive as it kept beyond the low-risk level.
+        </p>
+
+        <div class="pchart" id="Chart2"> </div>
+        <p>
+        Figure 2 shows the adults' drinking habits in England regions. 
+        The data is downloaded from <ul1><a href="https://fingertips.phe.org.uk/profile/local-alcohol-profiles/data#page/3/gid/1938133118/ati/402/iid/92763/age/168/sex/4/cat/-1/ctp/-1/yrr/1/cid/4/tbm/1/page-options/car-do-0">Office for Health Improvement & Disparities (OHID henceforth)</a></ul1> in csv format. 
+        The graph illustates that nearly 80% population in England drink alcohol and 20% population drink at a moderate or high-risk level.
+        </p>
+
+    </div>
+
+    <div class="myWeek">
+        <h2>3. Crime & Transport</h2>
+        <div class="pchart" id="Chart4"> </div>
+
+        <p>
+        Figure 3 illustrates the total number of violent incidents in England and Wales, and the proportion of it where the victim believed the offender(s) to be under the influence of alcohol.
+        The data is downloaded from <ul1><a href="https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/thenatureofviolentcrimeinenglandandwales/yearendingmarch2022">ONS</a></ul1> in csv format. 
+        The graph indicates alcohol brings a huge adverse impact on public security as approximately 40% of all violent incidents are alcohol-related in recent 10 years.
+        </p>
+
+        <div class="pchart" id="Chart5"> </div>
+        <p>
+        Figure 4 shows the drink-drive road causalities and fatalities.
+        The data is downloaded from the <ul1><a href="https://www.gov.uk/government/statistics/reported-road-casualties-in-great-britain-final-estimates-involving-illegal-alcohol-levels-2020/reported-road-casualties-in-great-britain-final-estimates-involving-illegal-alcohol-levels-2020#contact-details">Department for Transport</a></ul1> in ods format. 
+        The graph shows that since 2015, both rates keep rising. 
+        One reason behind it might be the relatively loose drink-drive limit. Regulations in England and Wales are below 80mg alcohol per 100ml blood while Scotland and many other European countries are 50mg/100ml or even lower.
+        </p>
+    </div>
+
+    <div class="myWeek">
+        <h2>4. Healthcare system</h2>
+        <div class="pchart" id="Chart3"> </div>
+        <p>
+        Figure 5 measures the trends of alcohol-specific mortality rates in four UK constituent countries. 
+        It refers to the death that is a direct result of alcohol misuse. 
+        The data is downloaded from <ul1><a href="https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/causesofdeath/bulletins/alcoholrelateddeathsintheunitedkingdom/latest">ONS</a></ul1> in csv format.
+        It implies that the rates have had an upper trend since 2012.
+        </p>
+
+        <div class="pchart" id="Chart6"> </div>
+        <p>
+        Figure 6 shows the components of alcohol-related costs to NHS in a year. The data is drawn from the Department of Health.
+        It illustrates that alcohol-related incidents cost NHS £2.7 billion a year.
+        The 2 major components are related to emergency services which indicate that alcohol-related callout is a significant burden.
+        </p>
+        <div class="pchart" id="Chart7"> </div>
+        <p>
+        Figure 7 is a map of England showing the alcohol-related admission episodes in each district. 
+        Relevant data is downloaded from <ul1><a href="https://fingertips.phe.org.uk/profile/local-alcohol-profiles/data#page/3/gid/1938132833/pat/6/par/E12000007/ati/402/are/E09000002/iid/93764/age/1/sex/4/cat/-1/ctp/-1/yrr/1/cid/4/tbm/1">OHID</a></ul1> and the graph illustrates where is affected by alcohol more.
+        </p>
+        <div class="pchart" id="Chart8"> </div>
+        <p>
+        Figure 8 measures the correlation between the mortality rate from chronic liver disease and alcohol-related admissions.
+        The data is drawn from <ul1><a href="https://fingertips.phe.org.uk/profile/local-alcohol-profiles/data#page/3/gid/1938132832/pat/6/par/E12000007/ati/402/are/E09000002/iid/91381/age/1/sex/4/cat/-1/ctp/-1/yrr/3/cid/4/tbm/1/page-options/car-do-0">OHID</a></ul1> and the graph shows the two indicators have a positive correlation with 0.53 R^2.
+        District with high alcohol-related admissions is more likely to have a high mortality rate from chronic liver disease.
+        </p>
+    </div>
+
+    <div class="myWeek">
+        <h2>5. Limitations & Challenges</h2>
+        <p>
+        The limitation of the project is that some of the adverse impacts of alcohol are hard to quantify, 
+        hence I found difficulties in getting time series data including specific values and most of them are written evidence.
+        The challenges are that I am unable to find relevant APIs for this topic hence most of my data are in csv format.
+        Secondly, the codes in some json files can produce the graph I want in vega-lite but it is in the wrong format on my main page.
+        Therefore, I export those files in complied-vega format which solved this problem. 
+        In addition, the map I used has several different district names with my data so I corrected it manually.
+        </p>
+    </div>
+
+    <div class="myWeek">
+        <h2>6. Conclusions</h2>
+        <p>
+        In conclusion, the 8 graphs show the public health and safety burden of alcohol. 
+        The consumption of it is excessive. 40% of violent incidents and 15% of road fatalities are related to alcohol.
+        The prescription, admission and emergency services cost NHS a lot. The government may need to develop more policies to tackle the problems.
+        However, alcohol industry may exert influences on the development of regulations. They can change the public perceptions of alcohol through some research or advertising.
+        The jobs created by the industry and the taxes paid can be used to negotiate with the government.
+        Hence further research can explore how to quantify those physical, mental and economic harms, compared to the benefit that the industry brings such as tax revenue and jobs.
+        </p>
+    </div>
+
+</body>
+
+    <script>
+        //Define charts:
+        var myChart1  = "AlcoholperL.json";
+        var myChart2  = "Behavior.json";
+        var myChart3 = "Project_f1.json";
+        var myChart4 = "Violent.json";
+        var myChart5 = "Death_Causalities.json";
+        var myChart6 = "NHScost.json";
+        var myChart7  = "Engmap.json";
+        var myChart8  = "Admission_Mortality.json";
+        
+
+        
+        
+        // Embed charts:
+        vegaEmbed('#Chart1', myChart1);
+        vegaEmbed('#Chart2', myChart2);
+        vegaEmbed('#Chart3', myChart3);
+        vegaEmbed('#Chart4', myChart4);
+        vegaEmbed('#Chart5', myChart5);
+        vegaEmbed('#Chart6', myChart6);
+        vegaEmbed('#Chart7', myChart7);
+        vegaEmbed('#Chart8', myChart8);
+        
+    </script>
+    
+    </html>
