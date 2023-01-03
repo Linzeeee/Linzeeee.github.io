@@ -30,13 +30,38 @@
         {"calculate": "replace(datum.date10, ' NOV', '-11')", "as": "date11"},
         {"calculate": "replace(datum.date11, ' DEC', '-12')", "as": "date12"},
         {"calculate": "timeParse(datum.date12, '%Y-%m')", "as": "Newdate"},
-        {"filter": "datum.year>=1971"},
-        {"filter": "datum.year<=2022"}
+        {"filter": "datum.year>=minYear"},
+        {"filter": "datum.year<=maxYear"}
+      ],
+
+      "params": [
+        {
+          "name": "minYear",
+          "value": 1971,
+          "bind": {
+            "input": "range",
+            "min": 1971,
+            "max": 2022,
+            "step": 1,
+            "name": "Start year:"
+          }
+        },
+        {
+          "name": "maxYear",
+          "value": 2022,
+          "bind": {
+            "input": "range",
+            "min": 1971,
+            "max": 2022,
+            "step": 1,
+            "name": "End year:"
+          }
+        }
       ],
 
     "mark": {"type": "line", "color": "rgb(0,47,167)","strokeWidth":3},
     "height": 300,
-    "width":350,
+    "width":"container",
     "encoding": {
         "y": {"field": "value", "type": "quantitative","title":"rate","scale":{"domain":[15,30]}},
         "x": {"field": "Newdate", "type": "temporal","title":"Date"},
