@@ -1,0 +1,69 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text":"Figure 3: Proportion of violent incidents which are alcohol-related (Red bar)",
+      "subtitle": ["Total violent incidents(Black line)","Source: ONS"],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+  },
+    "width": "container",
+    "height": 300,
+    "data": {
+      "url": "https://raw.githubusercontent.com/Linzeeee/Linzeeee.github.io/main/Violent.csv"
+    },
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "temporal",
+        "title": "Year",
+        "axis": {"labelAngle": 0, "grid": false}
+      },
+      "tooltip": [
+        {
+          "field": "Year",
+          "title": "Year",
+          "type": "temporal",
+          "timeUnit": "year"
+        },
+        {
+          "field": "Percentage",
+          "type": "quantitative",
+          "title": "Proportion of all violent incidents(%)"
+        },
+        {
+          "field": "Number",
+          "type": "quantitative",
+          "title": "Number of violent incidents (thousands)"
+        }
+      ]
+    },
+    "layer": [
+      {
+        "mark": {"opacity": 1, "type": "bar", "size": 5, "color": "#e6224b"},
+        "encoding": {
+          "y": {
+            "field": "Percentage",
+            "type": "quantitative",
+            "scale": {"domain": [0, 60]},
+            "title": "Proportion of all violent incidents",
+            "axis": {"titleColor": "#e6224b", "grid": true}
+          }
+        }
+      },
+      {
+        "mark": {"stroke": "#122b39 ", "type": "line", "size": 2.3},
+        "encoding": {
+          "y": {
+            "field": "Number",
+            "type": "quantitative",
+            "title": "Number of violent incidents (thousands)",
+            "scale": {"domain": [100, 1100]},
+            "axis": {"titleColor": "#122b39"}
+          }
+        }
+      }
+    ],
+    "resolve": {"scale": {"y": "independent"}}
+}

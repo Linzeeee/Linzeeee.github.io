@@ -1,0 +1,50 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title":{
+    "text":"Figure 7: Admission episodes for alcohol-specific conditions",
+    "subtitle":["Definition: Admissions to hospital where the primary diagnosis","or any of the secondary diagnoses are an alcohol-specific condition.",
+  "Source: Office for Health Improvement & Disparities"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+},
+
+  "width": "container",
+  "height": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/Linzeeee/Linzeeee.github.io/main/map.json",
+    "format": {"property": "features"}
+  },
+  "projection": {"type": "mercator"},
+
+  "transform": [
+    {
+      "lookup": "properties.LAD13NM",
+      "from":{"data":{
+        "url": "https://raw.githubusercontent.com/Linzeeee/Linzeeee.github.io/main/Map1.csv"},
+        "key": "AreaName",
+        "fields": ["Value"]
+      }
+    }
+  ],
+
+  "mark": {
+    "type": "geoshape",
+    "stroke": "darkgray",
+    "strokeWidth": 1
+  },
+  "encoding": {
+    "color":{
+      "field":"Value",
+      "title":"Rate per 100,000 population",
+      "type": "quantitative"
+    },
+
+    "tooltip": [
+      {"field": "properties.LAD13NM", "type": "nominal","title":"District"},
+      {"field":"Value","title":"Age standardised rate per 100,000 population" }
+      
+    ]
+  }
+}

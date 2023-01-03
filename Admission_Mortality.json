@@ -1,0 +1,94 @@
+{ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": ["Figure 8: Relationship between Mortality from chronic liver disease","and Alcohol-related admissions"],
+    "subtitle":["Mortality rate(per 100,000 people), Admission episodes(per 100,000 people)","Source: Office for Health Improvement & Disparities","Year: 2020"],
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "data": {"url": "https://raw.githubusercontent.com/Linzeeee/Linzeeee.github.io/main/Compare_indicators.csv"},
+
+   
+  "height": 300,
+  "width": "container",
+
+"layer": [
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size":80
+      },
+      "encoding": {
+        "x": {
+          "field": "Mortality",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Admission",
+          "type": "quantitative",
+          "scale":{"domain":[500,3500]}
+        },
+
+        "tooltip":[
+            {"field": "Mortality", "type": "quantitative", "title": "Mortality"},
+
+            {"field":"Admission", "type": "quantitative", "title": "Admission"},
+
+            {"field": "Area", "type": "nominal", "title": "Area"}
+      
+          ]
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "firebrick"
+      },
+      "transform": [
+        {
+          "regression": "Mortality",
+          "on": "Admission",
+          "extent": [500,3500]
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "Mortality",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Admission",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "Mortality",
+          "on": "Admission",
+          "params": true,
+          "method":"poly"
+          
+        },
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -10
+      },
+      "encoding": {
+        "text": {"type": "nominal", "field": "R2"}
+      }
+    }
+  ]
+
+}
+

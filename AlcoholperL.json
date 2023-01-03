@@ -1,0 +1,67 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text":"Figure 1: Consumption per adult (aged 15+)",
+    "subtitle": ["Pure alcohol drinking in a year","Source: British Beer & Pub Assciation"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+},
+
+  "width":"container",
+  "height":300,
+    "layer": [{
+      "data": {
+        "url": "https://raw.githubusercontent.com/Linzeeee/Linzeeee.github.io/main/ConsumptionVolume.csv"
+      },
+      "layer": [{
+        "mark": {"type":"bar","size":10},
+        "encoding": {
+          "x": {"field": "Year", "type": "temporal", "axis": {"labelAngle": 70}},
+          "y": {"field": "age15plus", "type": "quantitative"},
+          "tooltip":[
+            {"field": "age15plus", "type": "quantitative","title":"Pure alcohol (Litre)"},
+            {"field": "Year", "type": "temporal"}
+          ]
+        }
+      }, {
+        "mark": {"type":"bar","size":10},
+        "transform": [
+          {"filter": "(datum.age15plus) >= 7"},
+          {"calculate": "7", "as": "baseline"}
+        ],
+        "encoding": {
+          "x": {"field": "Year", "type": "nominal"},
+          "y": {"field": "baseline", "type": "quantitative", "title": "Consumption rate (Litre)"},
+          "y2": {"field": "age15plus"},
+          "color": {"value": "#e45755"},
+          "tooltip":[
+            {"field": "age15plus", "type": "quantitative","title":"Pure alcohol (Litre)"},
+            {"field": "Year", "type": "temporal"}
+          ]
+        }
+      }
+    ]}, {
+      "data": {
+         "values": [{}]
+      },
+      "encoding": {
+        "y": {"datum": 7}
+      },
+      "layer": [{
+        "mark": "rule"
+      }, {
+        "mark": {
+          "type": "text",
+          "align":"center",
+          "baseline": "middle",
+          "dx": 40,
+          "dy": -2,
+          "x": "width",
+          "text": "Low risk level"
+        }
+      }]
+    }
+  ]
+}

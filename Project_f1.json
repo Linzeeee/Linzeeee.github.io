@@ -1,0 +1,75 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+
+  "title": {
+    "text": "Figure 5: Age-standardised alcohol-specific mortality rates per 100,000 people",
+    "subtitle":["UK constituent countries","Source: ONS"],
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "data":{"url": "https://raw.githubusercontent.com/Linzeeee/Linzeeee.github.io/main/Death_rate.csv"},
+
+  "transform":[
+    {"filter": "isValid(datum.Year)"},
+    {"calculate": "datetime(datum.Year, 1)", "as": "Year1"},
+    {"filter": "datum.Year>=minYear"},
+    {"filter": "datum.Year<=maxYear"}
+    ],
+
+    "params": [
+      {
+        "name": "minYear",
+        "value": 2001,
+        "bind": {
+          "input": "range",
+          "min": 2001,
+          "max": 2021,
+          "step": 1,
+          "name": "Start year:"
+        }
+      },
+      {
+        "name": "maxYear",
+        "value": 2021,
+        "bind": {
+          "input": "range",
+          "min": 2001,
+          "max": 2021,
+          "step": 1,
+          "name": "End year:"
+        }
+      }
+    ],
+
+  "height": 300,
+  "width":"container",
+  "mark": {"type": "line", "point":true,"color": "rgb(0,47,167)"},
+  "encoding": {
+    "x": {
+      "field": "Year1",
+      "type": "temporal",
+      "axis": {"title": null, "grid": false, "ticks": true, "labelAngle": 80}
+    },
+    "y": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": "Rate",
+      "axis": {"grid": false}
+    },
+
+    "color": {"field": "Country", "type": "nominal"},
+    
+    "tooltip": [
+      {"field": "Year", "type": "nominal", "title": "Year"},
+
+      {"field": "Country", "type":"nominal","title": "Country"},
+
+      {"field": "Value", "type": "quantitative", "title": "Death rate per 100,000 people"}
+
+    ]
+  }
+}

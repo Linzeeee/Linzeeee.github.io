@@ -1,0 +1,78 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text":"Figure 4: Alcohol-related road causlities and fatalities",
+    "subtitle": ["Drink-drive causlities and fatalities as a proportion of all road causlities and fatalities","Source: Department of Transport"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+},
+
+  "width": "container",
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/Linzeeee/Linzeeee.github.io/main/Death.csv"
+  },
+
+  "transform": [
+    {"calculate": "datum.DeathD/datum.DeathT","as": "Fraction1"},
+    {"calculate": "datum.DrinkC/datum.TotalC","as": "Fraction2"}
+  ],
+
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "title": "Year",
+      "axis": {"labelAngle": 0, "grid": false}
+    },
+    "tooltip": [
+      {
+        "field": "Year",
+        "title": "Year",
+        "type": "temporal",
+        "timeUnit": "year"
+      },
+      {
+        "field": "Fraction1",
+        "type": "quantitative",
+        "title": "Proportion of all road fatalities",
+        "format":".2f"
+      },
+      {
+        "field": "Fraction2",
+        "type": "quantitative",
+        "title": "Proportion of all road causalities",
+        "format":".2f"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {"opacity": 1, "type": "line", "size": 3, "color": "#e6224b"},
+      "encoding": {
+        "y": {
+          "field": "Fraction1",
+          "type": "quantitative",
+          "scale": {"domain": [0, 0.2]},
+          "title": "Proportion of all road fatalities",
+          "axis": {"titleColor": "#e6224b", "grid": true}
+        }
+      }
+    },
+    {
+      "mark": {"opacity": 1, "type": "line","color":"#4682b4", "size": 3},
+      "encoding": {
+        "y": {
+          "field": "Fraction2",
+          "type": "quantitative",
+          "title": "Proportion of all road causalities",
+          "scale": {"domain": [0, 0.1]},
+          "axis": {"titleColor": "#4682b4"}
+        }
+      }
+    }
+  ],
+  "resolve": {"scale": {"y": "independent"}}
+}
