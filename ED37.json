@@ -64,7 +64,7 @@
     "width":"container",
     "encoding": {
         "y": {"field": "value", "type": "quantitative"},
-        "x": {"field": "dateClean", "type": "temporal"},
+        "x": {"field": "dateClean", "type": "temporal","title":"Year"},
         "tooltip": [
 
             {"field": "dateClean", "type": "temporal", "title": "Date"},
